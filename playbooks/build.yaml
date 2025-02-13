@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: poraparint:latest #docker image name
+         name: 66022769:latest #docker image name
          source: build
          build:
-            path: ~/poraparint #path ที่เก็บไฟล์ sourcecode 
+            path: ~/66022769 #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
